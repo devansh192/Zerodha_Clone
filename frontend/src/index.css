@@ -11,3 +11,94 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav-link{
+  margin-left: 40px;
+}
+
+#supportHero {
+  background-color: rgb(56, 126, 209);
+  color: white;
+  padding-bottom: 80px;
+}
+
+/* Top row */
+#supportWrapper {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#supportWrapper a {
+  color: white;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+/* Main hero layout */
+.support-content {
+  max-width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  gap: 80px;
+  padding-top: 40px;
+}
+
+/* Left section */
+.support-left {
+  flex: 1.3;
+}
+
+.support-left h1 {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+#supportHero input {
+  padding: 18px 24px;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* Quick links under input */
+.quick-links {
+  display: flex;
+  gap: 18px;
+  font-size: 14px;
+}
+
+.quick-links a {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Right section */
+.support-right {
+  flex: 1;
+}
+
+.support-right h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.support-right ol {
+  padding-left: 18px;
+}
+
+.support-right li {
+  margin-bottom: 8px;
+}
+
+.support-right a {
+  color: white;
+  text-decoration: underline;
+  font-size: 14px;
+}

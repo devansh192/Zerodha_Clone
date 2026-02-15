@@ -1,0 +1,9 @@
+.col a{
+    text-decoration: none;
+    line-height: 2.5;
+}
+
+.footer-bottom-links a {
+  margin: 0 12px;     /* space between words */
+  font-size: 13px;
+}
